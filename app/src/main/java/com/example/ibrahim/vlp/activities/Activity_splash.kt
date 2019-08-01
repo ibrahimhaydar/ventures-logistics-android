@@ -1,12 +1,13 @@
 package com.example.ibrahim.vlp.activities
 
+import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.ibrahim.vlp.R
 
-class Activity_splash : AppCompatActivity() {
+class Activity_splash : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

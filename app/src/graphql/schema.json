@@ -1,0 +1,138 @@
+{
+  "_queryType": "Query",
+  "_mutationType": "Mutation",
+  "_subscriptionType": null,
+  "_directives": [
+    {
+      "name": "include",
+      "description": "Directs the executor to include this field or fragment only when the `if` argument is true.",
+      "locations": [
+        "FIELD",
+        "FRAGMENT_SPREAD",
+        "INLINE_FRAGMENT"
+      ],
+      "args": [
+        {
+          "name": "if",
+          "description": "Included when true.",
+          "type": "Boolean!"
+        }
+      ]
+    },
+    {
+      "name": "skip",
+      "description": "Directs the executor to skip this field or fragment when the `if` argument is true.",
+      "locations": [
+        "FIELD",
+        "FRAGMENT_SPREAD",
+        "INLINE_FRAGMENT"
+      ],
+      "args": [
+        {
+          "name": "if",
+          "description": "Skipped when true.",
+          "type": "Boolean!"
+        }
+      ]
+    },
+    {
+      "name": "deprecated",
+      "description": "Marks an element of a GraphQL schema as no longer supported.",
+      "locations": [
+        "FIELD_DEFINITION",
+        "ENUM_VALUE"
+      ],
+      "args": [
+        {
+          "name": "reason",
+          "description": "Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted in [Markdown](https://daringfireball.net/projects/markdown/).",
+          "type": "String",
+          "defaultValue": "No longer supported"
+        }
+      ]
+    }
+  ],
+  "astNode": null,
+  "_typeMap": {
+    "Query": "Query",
+    "Address": "Address",
+    "ISO8601DateTime": "ISO8601DateTime",
+    "String": "String",
+    "ID": "ID",
+    "User": "User",
+    "Boolean": "Boolean",
+    "Wallet": "Wallet",
+    "Transaction": "Transaction",
+    "Category": "Category",
+    "DeliveryArea": "DeliveryArea",
+    "Geopoint": "Geopoint",
+    "Float": "Float",
+    "Vendor": "Vendor",
+    "Branch": "Branch",
+    "Int": "Int",
+    "AppSetting": "AppSetting",
+    "Order": "Order",
+    "Coordinates": "Coordinates",
+    "ChatMessage": "ChatMessage",
+    "Mutation": "Mutation",
+    "AcceptOrderInput": "AcceptOrderInput",
+    "AcceptOrderPayload": "AcceptOrderPayload",
+    "CheckInAreaInput": "CheckInAreaInput",
+    "CheckInAreaPayload": "CheckInAreaPayload",
+    "ConvertUserToDriverInput": "ConvertUserToDriverInput",
+    "ConvertUserToDriverPayload": "ConvertUserToDriverPayload",
+    "CreateAddressInput": "CreateAddressInput",
+    "CreateAddressPayload": "CreateAddressPayload",
+    "CreateAppSettingInput": "CreateAppSettingInput",
+    "CreateAppSettingPayload": "CreateAppSettingPayload",
+    "CreateBasicOrderInput": "CreateBasicOrderInput",
+    "PickupCoordinatesInput": "PickupCoordinatesInput",
+    "CreateBasicOrderPayload": "CreateBasicOrderPayload",
+    "CreateBranchInput": "CreateBranchInput",
+    "CreateBranchPayload": "CreateBranchPayload",
+    "CreateCategoryInput": "CreateCategoryInput",
+    "CreateCategoryPayload": "CreateCategoryPayload",
+    "CreateDeliveryAreaInput": "CreateDeliveryAreaInput",
+    "CreateDeliveryAreaPayload": "CreateDeliveryAreaPayload",
+    "CreateGeopointInput": "CreateGeopointInput",
+    "CoordinatesInput": "CoordinatesInput",
+    "CreateGeopointPayload": "CreateGeopointPayload",
+    "CreateNewMessageInput": "CreateNewMessageInput",
+    "CreateNewMessagePayload": "CreateNewMessagePayload",
+    "CreateOtpInput": "CreateOtpInput",
+    "CreateOtpPayload": "CreateOtpPayload",
+    "Otp": "Otp",
+    "CreateTransactionInput": "CreateTransactionInput",
+    "CreateTransactionPayload": "CreateTransactionPayload",
+    "CreateUserInput": "CreateUserInput",
+    "CreateUserPayload": "CreateUserPayload",
+    "CreateVendorInput": "CreateVendorInput",
+    "CreateVendorPayload": "CreateVendorPayload",
+    "DeleteAddressInput": "DeleteAddressInput",
+    "DeleteAddressPayload": "DeleteAddressPayload",
+    "Delete": "Delete",
+    "SigninUserInput": "SigninUserInput",
+    "SigninUserPayload": "SigninUserPayload",
+    "UpdateBasicOrderInput": "UpdateBasicOrderInput",
+    "UpdateBasicOrderPayload": "UpdateBasicOrderPayload",
+    "UpdateDeviceIdInput": "UpdateDeviceIdInput",
+    "UpdateDeviceIdPayload": "UpdateDeviceIdPayload",
+    "UpdateDriverStatusInput": "UpdateDriverStatusInput",
+    "UpdateDriverStatusPayload": "UpdateDriverStatusPayload",
+    "UpdateOrderStatusInput": "UpdateOrderStatusInput",
+    "UpdateOrderStatusPayload": "UpdateOrderStatusPayload",
+    "UpdateProfileInput": "UpdateProfileInput",
+    "UpdateProfilePayload": "UpdateProfilePayload",
+    "VerifyAddressInput": "VerifyAddressInput",
+    "VerifyAddressPayload": "VerifyAddressPayload",
+    "__Schema": "__Schema",
+    "__Type": "__Type",
+    "__TypeKind": "__TypeKind",
+    "__Field": "__Field",
+    "__InputValue": "__InputValue",
+    "__EnumValue": "__EnumValue",
+    "__Directive": "__Directive",
+    "__DirectiveLocation": "__DirectiveLocation"
+  },
+  "_implementations": {}
+}
